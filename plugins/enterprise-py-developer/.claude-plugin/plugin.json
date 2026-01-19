@@ -21,5 +21,10 @@
     "backend"
   ],
   "commands": ["./commands/"],
-  "agents": ["./agents/"]
+  "agents": [
+    "./agents/api-architect.md",
+    "./agents/code-reviewer.md",
+    "./agents/devops-engineer.md",
+    "./agents/test-engineer.md"
+  ]
 }

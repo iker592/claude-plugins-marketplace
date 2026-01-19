@@ -17,5 +17,10 @@
     "productivity"
   ],
   "commands": ["./commands/"],
-  "agents": ["./agents/"]
+  "agents": [
+    "./agents/habit-analyst.md",
+    "./agents/knowledge-curator.md",
+    "./agents/project-planner.md",
+    "./agents/research-assistant.md"
+  ]
 }
