@@ -1,0 +1,26 @@
+{
+  "mcpServers": {
+    "brain-knowledge": {
+      "command": "python3",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/servers/knowledge-server.py"],
+      "env": {
+        "BRAIN_ROOT": "${CLAUDE_PROJECT_DIR}"
+      }
+    },
+    "brain-habits": {
+      "command": "python3",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/servers/habit-api.py"],
+      "env": {
+        "BRAIN_ROOT": "${CLAUDE_PROJECT_DIR}",
+        "HABITS_DIR": "${CLAUDE_PROJECT_DIR}/habits-journal"
+      }
+    },
+    "brain-research": {
+      "command": "python3",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/servers/web-research.py"],
+      "env": {
+        "AI_ML_DIR": "${CLAUDE_PROJECT_DIR}/AI-ML-DL"
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "brain",
+  "version": "1.0.0",
+  "description": "Comprehensive Brain knowledge management system plugin with skills, commands, agents, hooks, and MCP servers",
+  "author": {
+    "name": "Iker",
+    "email": "iker@example.com"
+  },
+  "homepage": "https://github.com/iker592/Brain",
+  "repository": "https://github.com/iker592/Brain",
+  "license": "MIT",
+  "keywords": [
+    "knowledge-management",
+    "habits",
+    "ai-research",
+    "personal",
+    "productivity"
+  ],
+  "commands": ["./commands/"],
+  "agents": ["./agents/"]
+}

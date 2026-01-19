@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "py-project-tools": {
+      "command": "python3",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/servers/project-tools.py"],
+      "env": {
+        "PROJECTS_DIR": "${CLAUDE_PROJECT_DIR}"
+      }
+    },
+    "py-test-runner": {
+      "command": "python3",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/servers/test-tools.py"]
+    }
+  }
+}

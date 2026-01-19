@@ -1,0 +1,25 @@
+{
+  "name": "enterprise-py-developer",
+  "version": "1.0.0",
+  "description": "Enterprise Python development plugin with uv, FastAPI, FastMCP, pytest, and Docker support. Modern Python best practices for production applications.",
+  "author": {
+    "name": "Iker",
+    "email": "iker@example.com"
+  },
+  "homepage": "https://github.com/iker592/Brain",
+  "repository": "https://github.com/iker592/Brain",
+  "license": "MIT",
+  "keywords": [
+    "python",
+    "fastapi",
+    "uv",
+    "pytest",
+    "docker",
+    "fastmcp",
+    "enterprise",
+    "rest-api",
+    "backend"
+  ],
+  "commands": ["./commands/"],
+  "agents": ["./agents/"]
+}

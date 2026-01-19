@@ -1,0 +1,60 @@
+{
+  "name": "iker-plugins",
+  "owner": {
+    "name": "Iker",
+    "email": "iker@example.com"
+  },
+  "metadata": {
+    "description": "Personal knowledge management and development tools marketplace",
+    "version": "1.0.0",
+    "pluginRoot": "./.claude-plugin/plugins"
+  },
+  "plugins": [
+    {
+      "name": "brain",
+      "source": "./.claude-plugin/plugins/brain-plugin",
+      "description": "Comprehensive Brain knowledge management system plugin with skills, commands, agents, hooks, and MCP servers",
+      "version": "1.0.0",
+      "author": {
+        "name": "Iker",
+        "email": "iker@example.com"
+      },
+      "homepage": "https://github.com/iker592/claude-plugins-marketplace",
+      "repository": "https://github.com/iker592/claude-plugins-marketplace",
+      "license": "MIT",
+      "keywords": [
+        "knowledge-management",
+        "habits",
+        "ai-research",
+        "personal",
+        "productivity"
+      ],
+      "category": "productivity"
+    },
+    {
+      "name": "enterprise-py-developer",
+      "source": "./.claude-plugin/plugins/enterprise-py-developer",
+      "description": "Enterprise Python development plugin with uv, FastAPI, FastMCP, pytest, and Docker support. Modern Python best practices for production applications.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Iker",
+        "email": "iker@example.com"
+      },
+      "homepage": "https://github.com/iker592/claude-plugins-marketplace",
+      "repository": "https://github.com/iker592/claude-plugins-marketplace",
+      "license": "MIT",
+      "keywords": [
+        "python",
+        "fastapi",
+        "uv",
+        "pytest",
+        "docker",
+        "fastmcp",
+        "enterprise",
+        "rest-api",
+        "backend"
+      ],
+      "category": "development"
+    }
+  ]
+}
