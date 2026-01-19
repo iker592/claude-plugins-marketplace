@@ -7,12 +7,12 @@
   "metadata": {
     "description": "Personal knowledge management and development tools marketplace",
     "version": "1.0.0",
-    "pluginRoot": "./.claude-plugin/plugins"
+    "pluginRoot": "./plugins"
   },
   "plugins": [
     {
       "name": "brain",
-      "source": "./.claude-plugin/plugins/brain-plugin",
+      "source": "./plugins/brain-plugin",
       "description": "Comprehensive Brain knowledge management system plugin with skills, commands, agents, hooks, and MCP servers",
       "version": "1.0.0",
       "author": {
@@ -33,7 +33,7 @@
     },
     {
       "name": "enterprise-py-developer",
-      "source": "./.claude-plugin/plugins/enterprise-py-developer",
+      "source": "./plugins/enterprise-py-developer",
       "description": "Enterprise Python development plugin with uv, FastAPI, FastMCP, pytest, and Docker support. Modern Python best practices for production applications.",
       "version": "1.0.0",
       "author": {
